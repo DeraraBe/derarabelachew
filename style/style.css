@@ -1,0 +1,267 @@
+
+#contact {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-family: 'poppins',sans-serif;
+    border-radius:5px ;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px gold;
+
+}
+
+#con {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    background: #06021b;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.cm {
+    color: gold;
+    text-align: center;
+}
+.message input , .message textarea{width: 50%;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 1px gold;
+    
+}
+.message button{
+    margin: 10px 0;
+    border: none;
+    background-color: #d0d0d0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    color:#444;
+    box-shadow: 0px 0px 10px 1px gold;
+}
+button:hover{
+    color:white;
+    background-color: gold;
+}
+@media (max-width:900px){
+    .Contact{
+        width:80%;
+        margin:5%;
+    }
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background:wheat;
+    line-height: 5px;
+    padding: 0px 10px 9px 100px;
+    box-sizing: border-box;
+    word-spacing:10px ;
+    text-align: left;
+    
+    }
+    .top button{
+        margin: 5px 0;
+        border: none;
+        background-color:wheat;
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 3px;
+        color:#444;
+        box-shadow: 0px 0px 10px 1px gold;
+    }
+    .top DERARA BELACHEW{
+        text-align: left;
+    }
+    * {
+        box-sizing:border-box;
+
+    }
+
+    .container {
+        width: 50%;
+        background-color: #111010;
+        border-radius: 3px;
+
+    }
+
+    .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        border-radius: 90px;
+
+    }
+
+    .java {
+        width: 80%;
+        background-color: #04aa6d;
+    }
+
+    .cpp {
+        width: 70%;
+        background-color: #65be31;
+    }
+
+    .py {
+        width: 70%;
+        background-color: #65be31;
+    }
+
+    .html {
+        width: 70%;
+        background-color: #65be31;
+    }
+
+    .css {
+        width: 60%;
+        background-color: #b8bb21;
+    }
+
+    .js {
+        width: 50%;
+        background-color: #b32a2a;
+    }
+
+    .sql {
+        width: 80%;
+        background-color: #3d8d44;
+    }
+
+    .md {
+        width: 30%;
+        background-color: #cf0505;
+    }
+
+    .db {
+        color: gold;
+    }
+
+    p {
+        color: goldenrod;
+
+    }
+
+    .font {
+        color: greenyellow;
+    }
+
+    .db1 {
+        color: violet;
+    }
+
+   
+    img {
+        width: 400px;
+        border-radius: 40px;
+        margin: left 50px;
+        padding: 20 px;
+        margin-top: 3%;
+        padding-left: 2%;
+
+}
+
+.p1 {
+        width: 50%;
+        border: 1px solid #ccc;
+        margin: 50px 0;
+        padding: 10px 20px;
+        font-family: 'poppins', sans-serif;
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px 1px gold;
+}
+
+.p2 {
+        width: 50%;
+        border: 1px solid #ccc;
+        margin: 50px 0;
+        padding: 10px 20px;
+        font-family: 'poppins', sans-serif;
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px 1px gold;
+}
+
+.p3 {
+        width: 50%;
+        border: 1px solid #ccc;
+        margin: 50px 0;
+        padding: 10px 20px;
+        font-family: 'poppins', sans-serif;
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px 1px gold;
+}
+
+.font {
+        color: gold;
+        text-align: center;
+}
+
+.p1 p {
+        color: goldenrod;
+}
+
+.p2 p {
+        color: goldenrod;
+}
+
+.p3 p {
+        color: goldenrod;
+}
+
+.github-image {
+        cursor: pointer;
+}
+
+.github-icon {
+        display: none;
+        position: relative;
+        top: 2%;
+        left: 2%;
+        transform: translate(-20%, -20%);
+}
+
+.github-image:hover+.github-icon {
+        display: block;
+}
+
+#s {
+    color: gold;
+    text-align: center;
+    width: 50%;
+    border: 1px solid #ccc;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px gold;
+}
+
+body {
+    display: flexbox;
+    background: #06021b;
+    font-size: larger;
+
+
+}
+
+
+.t2 {
+    color: gold;
+    text-align: center;
+}
+/*style for navigitation bar */
