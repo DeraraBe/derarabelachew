@@ -1,26 +1,4 @@
 
-/* Styles for desktop */
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-/* Styles for tablet */
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-    padding: 0 20px;
-  }
-}
-
-/* Styles for mobile */
-@media screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-    padding: 0 10px;
-  }
-}
-
 #contact {
     width: 50%;
     border: 1px solid #ccc;
@@ -286,4 +264,92 @@ body {
     color: gold;
     text-align: center;
 }
-/*style for navigitation bar */
+/*mobile viwe*/
+@media screen and (max-width: 600px) {
+    .top {
+      padding: 10px;
+    }
+    
+    .s
+    {
+      padding: 10px;
+    }
+    .butt{
+        padding: 10px;
+    }
+  }
+ /* Media queries */
+        @media only screen and (max-width: 600px) {
+            /* Styles for devices with maximum width of 600px */
+            .font {
+                font-size: 14px;
+            }
+        }
+
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            /* Styles for devices with minimum width of 601px and maximum width of 1024px */
+            .font {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (min-width: 1025px) {
+            /* Styles for devices with minimum width of 1025px */
+            .font {
+                font-size: 18px;
+            }
+        }
+        
+@media (max-width: 900px) {
+    /* Styles for devices with maximum width of 900px */
+    .container {
+        width: 80%;
+        margin: 5%;
+    }
+
+    .p1,
+    .p2,
+    .p3,
+    #s,
+    #contact {
+        width: 80%;
+        margin: 5%;
+    }
+
+    .top {
+        padding: 10px;
+    }
+
+    .s {
+        padding: 10px;
+    }
+
+    .butt {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for devices with maximum width of 600px (mobile devices) */
+    .top {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .s {
+        padding: 10px;
+    }
+
+    .butt {
+        padding: 10px;
+    }
+}
+In the updated CSS code, I have added media queries for devices with a maximum width of 900px and 600px. The styles within these media queries will be applied to adjust the layout and appearance of elements for different screen sizes.
+
+Note that I have only included the styles you provided in your code snippet. If you have more elements or sections in your website, you can apply similar media queries to those elements as well to ensure responsiveness across all devices.
+
+
+
+
+
+

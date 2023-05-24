@@ -15,4 +15,4 @@ function changeColorScheme() {
 function openGitHubProject1() {
   window.location.href = 'https://github.com/users/derarabelachew/projects/1/views/1';
 }
-
+// fix my project for mobile viwe 
